@@ -48,5 +48,10 @@ namespace TestUIDesgin
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void connectionControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

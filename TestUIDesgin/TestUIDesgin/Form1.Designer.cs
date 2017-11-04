@@ -30,20 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(APLSEM3Form));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SideBarPanel = new System.Windows.Forms.Panel();
+            this.DataReadbutton = new System.Windows.Forms.Button();
+            this.Calibrationbutton = new System.Windows.Forms.Button();
+            this.Connectionbutton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.MinimizeButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.ExitButton = new System.Windows.Forms.Button();
             this.userControl11 = new TestUIDesgin.UserControl1();
             this.connectionControl1 = new TestUIDesgin.ConnectionControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.DataReadbutton = new System.Windows.Forms.Button();
-            this.Calibrationbutton = new System.Windows.Forms.Button();
-            this.Connectionbutton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -60,6 +60,16 @@
             this.panel1.Size = new System.Drawing.Size(204, 526);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TestUIDesgin.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(47, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(89, 71);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // SideBarPanel
             // 
             this.SideBarPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
@@ -67,6 +77,57 @@
             this.SideBarPanel.Name = "SideBarPanel";
             this.SideBarPanel.Size = new System.Drawing.Size(10, 81);
             this.SideBarPanel.TabIndex = 3;
+            // 
+            // DataReadbutton
+            // 
+            this.DataReadbutton.FlatAppearance.BorderSize = 0;
+            this.DataReadbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DataReadbutton.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataReadbutton.ForeColor = System.Drawing.Color.White;
+            this.DataReadbutton.Image = global::TestUIDesgin.Properties.Resources.point_of_service;
+            this.DataReadbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.DataReadbutton.Location = new System.Drawing.Point(13, 267);
+            this.DataReadbutton.Name = "DataReadbutton";
+            this.DataReadbutton.Size = new System.Drawing.Size(188, 82);
+            this.DataReadbutton.TabIndex = 3;
+            this.DataReadbutton.Text = "  Data Read";
+            this.DataReadbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.DataReadbutton.UseVisualStyleBackColor = true;
+            this.DataReadbutton.Click += new System.EventHandler(this.DataReadbutton_Click);
+            // 
+            // Calibrationbutton
+            // 
+            this.Calibrationbutton.FlatAppearance.BorderSize = 0;
+            this.Calibrationbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Calibrationbutton.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Calibrationbutton.ForeColor = System.Drawing.Color.White;
+            this.Calibrationbutton.Image = global::TestUIDesgin.Properties.Resources.calibre1;
+            this.Calibrationbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Calibrationbutton.Location = new System.Drawing.Point(13, 183);
+            this.Calibrationbutton.Name = "Calibrationbutton";
+            this.Calibrationbutton.Size = new System.Drawing.Size(188, 81);
+            this.Calibrationbutton.TabIndex = 3;
+            this.Calibrationbutton.Text = "  Calibration";
+            this.Calibrationbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Calibrationbutton.UseVisualStyleBackColor = true;
+            this.Calibrationbutton.Click += new System.EventHandler(this.Calibrationbutton_Click);
+            // 
+            // Connectionbutton
+            // 
+            this.Connectionbutton.FlatAppearance.BorderSize = 0;
+            this.Connectionbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Connectionbutton.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Connectionbutton.ForeColor = System.Drawing.Color.White;
+            this.Connectionbutton.Image = global::TestUIDesgin.Properties.Resources.universal_serial_usb_connector;
+            this.Connectionbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Connectionbutton.Location = new System.Drawing.Point(13, 99);
+            this.Connectionbutton.Name = "Connectionbutton";
+            this.Connectionbutton.Size = new System.Drawing.Size(188, 81);
+            this.Connectionbutton.TabIndex = 3;
+            this.Connectionbutton.Text = "  Connection";
+            this.Connectionbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Connectionbutton.UseVisualStyleBackColor = true;
+            this.Connectionbutton.Click += new System.EventHandler(this.Connectionbutton_Click);
             // 
             // panel2
             // 
@@ -126,67 +187,7 @@
             this.connectionControl1.Name = "connectionControl1";
             this.connectionControl1.Size = new System.Drawing.Size(705, 494);
             this.connectionControl1.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TestUIDesgin.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(47, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(89, 71);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // DataReadbutton
-            // 
-            this.DataReadbutton.FlatAppearance.BorderSize = 0;
-            this.DataReadbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DataReadbutton.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DataReadbutton.ForeColor = System.Drawing.Color.White;
-            this.DataReadbutton.Image = global::TestUIDesgin.Properties.Resources.point_of_service;
-            this.DataReadbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.DataReadbutton.Location = new System.Drawing.Point(13, 267);
-            this.DataReadbutton.Name = "DataReadbutton";
-            this.DataReadbutton.Size = new System.Drawing.Size(188, 82);
-            this.DataReadbutton.TabIndex = 3;
-            this.DataReadbutton.Text = "  Data Read";
-            this.DataReadbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.DataReadbutton.UseVisualStyleBackColor = true;
-            this.DataReadbutton.Click += new System.EventHandler(this.DataReadbutton_Click);
-            // 
-            // Calibrationbutton
-            // 
-            this.Calibrationbutton.FlatAppearance.BorderSize = 0;
-            this.Calibrationbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Calibrationbutton.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Calibrationbutton.ForeColor = System.Drawing.Color.White;
-            this.Calibrationbutton.Image = global::TestUIDesgin.Properties.Resources.calibre1;
-            this.Calibrationbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Calibrationbutton.Location = new System.Drawing.Point(13, 183);
-            this.Calibrationbutton.Name = "Calibrationbutton";
-            this.Calibrationbutton.Size = new System.Drawing.Size(188, 81);
-            this.Calibrationbutton.TabIndex = 3;
-            this.Calibrationbutton.Text = "  Calibration";
-            this.Calibrationbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Calibrationbutton.UseVisualStyleBackColor = true;
-            this.Calibrationbutton.Click += new System.EventHandler(this.Calibrationbutton_Click);
-            // 
-            // Connectionbutton
-            // 
-            this.Connectionbutton.FlatAppearance.BorderSize = 0;
-            this.Connectionbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Connectionbutton.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Connectionbutton.ForeColor = System.Drawing.Color.White;
-            this.Connectionbutton.Image = global::TestUIDesgin.Properties.Resources.universal_serial_usb_connector;
-            this.Connectionbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Connectionbutton.Location = new System.Drawing.Point(13, 99);
-            this.Connectionbutton.Name = "Connectionbutton";
-            this.Connectionbutton.Size = new System.Drawing.Size(188, 81);
-            this.Connectionbutton.TabIndex = 3;
-            this.Connectionbutton.Text = "  Connection";
-            this.Connectionbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Connectionbutton.UseVisualStyleBackColor = true;
-            this.Connectionbutton.Click += new System.EventHandler(this.Connectionbutton_Click);
+            this.connectionControl1.Load += new System.EventHandler(this.connectionControl1_Load);
             // 
             // APLSEM3Form
             // 
@@ -204,9 +205,9 @@
             this.Text = "APLSEM30";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
