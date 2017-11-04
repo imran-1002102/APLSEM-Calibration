@@ -31,19 +31,19 @@ namespace TestUIDesgin
         private void ConnectPortButton_Click(object sender, EventArgs e)
         {
             ConnectPortButton.Text = "Connected";
-            try
-            {
-                string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
-                serialPort1.PortName = selectedPort;
-                serialPort1.BaudRate = Int32.Parse(comboBox2.GetItemText(comboBox2.SelectedItem));
+            //try
+            //{
+            //    string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
+            //    serialPort1.PortName = selectedPort;
+            //    serialPort1.BaudRate = Int32.Parse(comboBox2.GetItemText(comboBox2.SelectedItem));
                 
-                // serialPort1.Open();
-            }
-            catch (Exception)
-            {
+            //    // serialPort1.Open();
+            //}
+            //catch (Exception)
+            //{
 
-                throw;
-            }
+            //    throw;
+            //}
         }
 
         private void DisconnectButton_Click(object sender, EventArgs e)
