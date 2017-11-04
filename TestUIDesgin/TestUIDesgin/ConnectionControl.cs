@@ -71,7 +71,7 @@ namespace TestUIDesgin
                     ConnectPortButton.Enabled = false;
                     DisconnectButton.Enabled = true;
 
-                    UserControl1 myUserControlObject = new UserControl1();
+                    TestUIDesgin.UserControl1 myUserControlObject = new UserControl1();
                     myUserControlObject.SetSerialPort(serialPort1);
                 }
                 catch (Exception serialPortException)

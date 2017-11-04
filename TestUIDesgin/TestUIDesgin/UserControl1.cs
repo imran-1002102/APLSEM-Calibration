@@ -21,7 +21,7 @@ namespace TestUIDesgin
 
         public void SetSerialPort(SerialPort port)
         {
-            serialPort = port;
+            this.serialPort = port;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -34,12 +34,12 @@ namespace TestUIDesgin
             byte[] voltageRead = {0xfe, 0xfe};
             try
             {
-                serialPort.Write(voltageRead, 0, voltageRead.Length);
+                this.serialPort.Write(voltageRead, 0, voltageRead.Length);
             }
             catch (Exception)
             {
                 MessageBox.Show("Can't find serial port");
-                MessageBox.Show(serialPort.PortName);
+                MessageBox.Show(this.serialPort.PortName);
             }
         }
     }
