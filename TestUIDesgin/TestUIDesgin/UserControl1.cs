@@ -17,7 +17,6 @@ namespace TestUIDesgin
         public UserControl1()
         {
             InitializeComponent();
-            
         }
 
         public void SetSerialPort(SerialPort port)
@@ -40,6 +39,7 @@ namespace TestUIDesgin
             catch (Exception)
             {
                 MessageBox.Show("Can't find serial port");
+                MessageBox.Show(serialPort.PortName);
             }
         }
     }

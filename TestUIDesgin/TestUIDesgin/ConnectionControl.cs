@@ -34,43 +34,50 @@ namespace TestUIDesgin
 
         private void ConnectPortButton_Click(object sender, EventArgs e)
         {
-            try
+            if(serialPort1.IsOpen)
             {
-                string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
-                serialPort1.PortName = selectedPort;
-                serialPort1.BaudRate = Int32.Parse(comboBox2.GetItemText(comboBox2.SelectedItem));
-                if (0 == comboBox3.SelectedIndex)
-                {
-                    serialPort1.Parity = Parity.Even;
-                }
-                if (1 == comboBox3.SelectedIndex)
-                {
-                    serialPort1.Parity = Parity.Odd;
-                }
-                if (2 == comboBox3.SelectedIndex)
-                {
-                    serialPort1.Parity = Parity.None;
-                }
 
-                if (0 == comboBox4.SelectedIndex)
-                {
-                    serialPort1.StopBits = StopBits.One;
-                }
-                if (1 == comboBox4.SelectedIndex)
-                {
-                    serialPort1.StopBits = StopBits.Two;
-                }
-                serialPort1.Open();
-                ConnectPortButton.Text = "Connected";
-                ConnectPortButton.Enabled = false;
-                DisconnectButton.Enabled = true;
-
-                UserControl1 myUserControlObject = new UserControl1();
-                myUserControlObject.SetSerialPort(serialPort1);
             }
-            catch (Exception serialPortException)
+            else
             {
-                MessageBox.Show("Can't Find Serial Port!");
+                try
+                {
+                    string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
+                    serialPort1.PortName = selectedPort;
+                    serialPort1.BaudRate = Int32.Parse(comboBox2.GetItemText(comboBox2.SelectedItem));
+                    if (0 == comboBox3.SelectedIndex)
+                    {
+                        serialPort1.Parity = Parity.Even;
+                    }
+                    if (1 == comboBox3.SelectedIndex)
+                    {
+                        serialPort1.Parity = Parity.Odd;
+                    }
+                    if (2 == comboBox3.SelectedIndex)
+                    {
+                        serialPort1.Parity = Parity.None;
+                    }
+
+                    if (0 == comboBox4.SelectedIndex)
+                    {
+                        serialPort1.StopBits = StopBits.One;
+                    }
+                    if (1 == comboBox4.SelectedIndex)
+                    {
+                        serialPort1.StopBits = StopBits.Two;
+                    }
+                    serialPort1.Open();
+                    ConnectPortButton.Text = "Connected";
+                    ConnectPortButton.Enabled = false;
+                    DisconnectButton.Enabled = true;
+
+                    UserControl1 myUserControlObject = new UserControl1();
+                    myUserControlObject.SetSerialPort(serialPort1);
+                }
+                catch (Exception serialPortException)
+                {
+                    MessageBox.Show("Can't Find Serial Port!");
+                }
             }
         }
 

@@ -21,3 +21,4 @@ D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\Te
 D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csproj.CoreCompileInputs.cache
 D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.exe
 D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.pdb
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csprojResolveAssemblyReference.cache
