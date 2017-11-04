@@ -70,6 +70,7 @@
             this.DisconnectButton.TabIndex = 0;
             this.DisconnectButton.Text = "Disconnet";
             this.DisconnectButton.UseVisualStyleBackColor = true;
+            this.DisconnectButton.Click += new System.EventHandler(this.DisconnectButton_Click);
             // 
             // comboBox1
             // 

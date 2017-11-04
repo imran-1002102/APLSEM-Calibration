@@ -30,6 +30,7 @@ namespace TestUIDesgin
 
         private void ConnectPortButton_Click(object sender, EventArgs e)
         {
+            ConnectPortButton.Text = "Connected";
             try
             {
                 string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
@@ -43,6 +44,11 @@ namespace TestUIDesgin
 
                 throw;
             }
+        }
+
+        private void DisconnectButton_Click(object sender, EventArgs e)
+        {
+            ConnectPortButton.Text = "Connect";
         }
     }
 }
