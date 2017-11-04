@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.ConnectPortButton = new System.Windows.Forms.Button();
             this.ScanPort = new System.Windows.Forms.Button();
             this.DisconnectButton = new System.Windows.Forms.Button();
@@ -37,6 +36,7 @@
             this.SelectPortLabel = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.SuspendLayout();
             // 
             // ConnectPortButton
@@ -136,8 +136,6 @@
         }
 
         #endregion
-
-        private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Button ConnectPortButton;
         private System.Windows.Forms.Button ScanPort;
         private System.Windows.Forms.Button DisconnectButton;
@@ -145,5 +143,6 @@
         private System.Windows.Forms.Label SelectPortLabel;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label1;
+        private System.IO.Ports.SerialPort serialPort1;
     }
 }

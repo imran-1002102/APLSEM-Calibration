@@ -30,20 +30,21 @@ namespace TestUIDesgin
 
         private void ConnectPortButton_Click(object sender, EventArgs e)
         {
-            ConnectPortButton.Text = "Connected";
-            //try
-            //{
-            //    string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
-            //    serialPort1.PortName = selectedPort;
-            //    serialPort1.BaudRate = Int32.Parse(comboBox2.GetItemText(comboBox2.SelectedItem));
-                
-            //    // serialPort1.Open();
-            //}
-            //catch (Exception)
-            //{
+            try
+            {
+                string selectedPort = comboBox1.GetItemText(comboBox1.SelectedItem);
+                serialPort1.PortName = selectedPort;
+                serialPort1.BaudRate = Int32.Parse(comboBox2.GetItemText(comboBox2.SelectedItem));
+                serialPort1.Open();
+                ConnectPortButton.Text = "Connected";
 
-            //    throw;
-            //}
+                UserControl1 myUserControlObject = new UserControl1();
+                myUserControlObject.SetSerialPort(serialPort1);
+            }
+            catch (Exception serialPortException)
+            {
+                MessageBox.Show("Can't Find Serial Port!");
+            }
         }
 
         private void DisconnectButton_Click(object sender, EventArgs e)

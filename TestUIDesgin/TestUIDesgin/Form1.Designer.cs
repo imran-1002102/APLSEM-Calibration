@@ -143,7 +143,7 @@
             // 
             // MinimizeButton
             // 
-            this.MinimizeButton.Location = new System.Drawing.Point(653, 5);
+            this.MinimizeButton.Location = new System.Drawing.Point(649, 5);
             this.MinimizeButton.Name = "MinimizeButton";
             this.MinimizeButton.Size = new System.Drawing.Size(25, 23);
             this.MinimizeButton.TabIndex = 3;
@@ -164,7 +164,7 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(679, 5);
+            this.ExitButton.Location = new System.Drawing.Point(676, 5);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(22, 23);
             this.ExitButton.TabIndex = 2;
