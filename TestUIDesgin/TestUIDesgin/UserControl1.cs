@@ -32,7 +32,7 @@ namespace TestUIDesgin
 
         private void PhaseCurrentReadButton_Click(object sender, EventArgs e)
         {
-            byte[] voltageRead = {0xfe, 0xfe };
+            byte[] voltageRead = {0xfe, 0xfe};
             try
             {
                 serialPort.Write(voltageRead, 0, voltageRead.Length);
