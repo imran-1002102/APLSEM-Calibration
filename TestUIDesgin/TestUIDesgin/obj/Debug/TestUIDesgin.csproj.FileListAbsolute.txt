@@ -1,0 +1,12 @@
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\bin\Debug\TestUIDesgin.exe.config
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\bin\Debug\TestUIDesgin.exe
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\bin\Debug\TestUIDesgin.pdb
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.Properties.Resources.resources
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csproj.GenerateResource.Cache
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csproj.CoreCompileInputs.cache
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.exe
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.pdb
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.UserControl1.resources
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.APLSEM3Form.resources
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.ConnectionControl.resources
+C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csprojResolveAssemblyReference.cache
