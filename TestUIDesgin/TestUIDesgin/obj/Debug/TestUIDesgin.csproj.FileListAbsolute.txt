@@ -10,3 +10,15 @@ C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.UserC
 C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.APLSEM3Form.resources
 C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.ConnectionControl.resources
 C:\Users\BPF\source\repos\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csprojResolveAssemblyReference.cache
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\bin\Debug\TestUIDesgin.exe.config
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\bin\Debug\TestUIDesgin.exe
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\bin\Debug\TestUIDesgin.pdb
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csprojResolveAssemblyReference.cache
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.ConnectionControl.resources
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.APLSEM3Form.resources
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.Properties.Resources.resources
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.UserControl1.resources
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csproj.GenerateResource.Cache
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.csproj.CoreCompileInputs.cache
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.exe
+D:\Project Files Home Directory\C# repo\APLSEM-Calibration\APLSEM-Calibration\TestUIDesgin\TestUIDesgin\obj\Debug\TestUIDesgin.pdb
